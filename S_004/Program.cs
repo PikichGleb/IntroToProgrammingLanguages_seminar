@@ -20,7 +20,7 @@ else
 
 int dayOfWeek;
 //dayOfWeek =Convert.ToInt32(Console.ReadLine());
-dayOfWeek =int.Parse(Console.ReadLine());
+dayOfWeek = int.Parse(Console.ReadLine());
 
 switch (dayOfWeek)
 {

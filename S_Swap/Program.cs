@@ -5,9 +5,7 @@ void Swap(ref int a, ref int b) // reference
     a = b;
     b = t;
 }
-*/
 
-/*
 int a = 1;
 int b = 2;
 Console.WriteLine($"a={a} b={b}");
