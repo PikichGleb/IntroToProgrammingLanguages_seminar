@@ -8,14 +8,13 @@ int Digits(int N)
     int d = 1;
     while (index < N)
     {
-        l = d*d;
-        Console.WriteLine($"{l}");
+        l = l*d;
+        Console.WriteLine($"{l}");  //Проверка
         d++;
-        l++;
         index++;
     }
     return l;
 }
 Console.Write("Введите целое число:");
 int z = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(Digits(z));
+Console.WriteLine($"\n{Digits(z)}");

@@ -3,7 +3,7 @@
 
 int SumDigits(int N)
 {
-    if (N == 0) return 1;
+    if (N == 0) return 0;
     int sum = 0;
     while (N != 0)
     {

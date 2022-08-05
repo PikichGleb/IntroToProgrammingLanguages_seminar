@@ -4,7 +4,7 @@ Console.Write("Введите целое число A: ");
 int A = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите степень B: ");
 int B = Convert.ToInt32(Console.ReadLine());
-int index = 0;
+int index = 1;
 int l = A;
 while (index < B)
 {
