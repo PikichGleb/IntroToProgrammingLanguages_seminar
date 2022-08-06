@@ -34,7 +34,6 @@ Console.WriteLine($"{a}^2={b}");
 
 double a;
 double b;
-string? s;
 //s=Console.ReadLine();
 a = Convert.ToDouble(Console.ReadLine()); //Convert.ToDouble(s);
 b = a*a;
