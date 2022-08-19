@@ -14,17 +14,16 @@ Print(arr);
 // Обмен 1 и последней строки
 void SwapLine(int[,] a)
 {
-    for (int i = 0; i < a.GetLength(0); i++) // Перебираем строкии 
-    {
-        for (int j = 0; j < a.GetLength(1); j++)  // Перебираем столбцы
-        {
-            int temp = 0;
-            temp = a[0, j];
-            a[0, j] = a[a.GetLength(0) - 1, j];
-            a[a.GetLength(0) - 1, j] = temp;
-        }
 
+    for (int j = 0; j < a.GetLength(1); j++)  // Перебираем столбцы
+    {
+        int temp = 0;
+        temp = a[0, j];
+        a[0, j] = a[a.GetLength(0) - 1, j];
+        a[a.GetLength(0) - 1, j] = temp;
     }
+
+
 }
 
 // Заполнение двумерного массива

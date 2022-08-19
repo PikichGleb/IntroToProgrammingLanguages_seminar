@@ -21,7 +21,7 @@ double ArithmeticMean(int[,] a)
             s =(s+ a[j, i]);
             Console.WriteLine(s);
         }
-        d =s / a.GetLength(1);
+        d =s / a.GetLength(0);
         Console.WriteLine(d);
         
     }
